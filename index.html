@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Javascript tic tac toe</title>
+</head>
+<body>
+  <section>
+    <!-- Loader -->
+    <div class="loader">
+      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      </div>
+    <div class="container">
+        <div class="my__name">
+          <h1>Baxtiyor Chorshanbiyev</h1>
+          <p>I'm <span class="typed__text">Web devoloper</span><span class="cursor">&nbsp;</span></p>
+        </div>
+        <div id="turn" class="turn">Play</div>
+        <div class="main" id="main">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+        <button onclick="replay()" type="button" class="btn btn-block">Play Again</button>
+      </div>
+    </div>
+  </section>
+  
+  
+  <script src="./bootstrap/js/jquery.min.js"></script>
+  <script src="./bootstrap/js/popper.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
